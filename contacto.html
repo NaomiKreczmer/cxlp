@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching por los pueblos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="logo c.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f78d7d6cdc.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="logo coaching.png" alt="Coaching por los pueblos"></div>
+        <nav class="menu">  
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienessomos.html">Quiénes Somos</a></li>
+                <li><a href="quehacemos.html">Qué Hacemos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>       
+        </nav>
+        
+    </header>
+
+    <main>
+          <h1>Contanos lo que quieras!</h1>
+          <br>
+          <div class="formulario">
+            <form action="mailto:naomikreczmer@gmail.com" name=formulario method="post" enctype="text/plain">
+            
+            <div class="campo">Nombre y Apellido</div>
+            <input class="input" type="text" name="nombre" placeholder="Ingrese su Nombre y Apellido">
+            <div class="campo">Email</div>
+            <input class="input" type="text" name="email" placeholder="Ingrese su email">
+            <div class="campo">Pueblo</div>
+            <input class="input" type="text" name="pueblo" placeholder="Ingrese su pueblo/ciudad">
+            <div class="campo">Comentarios</div>
+            <input class="comentarios" type="text" name="comentarios" placeholder="Comentanos lo que quieras">
+
+            <div class="button"><input onclick="valida_envio()" type="button" value="Enviar formulario"> </div>
+            <div class="button"><input type="Reset" value="Borrar todo"></div>
+            </form>
+        </div>
+        
+    </main>    
+
+    
+    
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="https://wa.me/+5491157550705?text=Hola!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/coaching_por_los_pueblos/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>       
+            </ul>
+        <div class="titulo auspician">Auspician</div>
+        <div class="auspician"> 
+            <ul>
+                <li><a href="https://www.instagram.com/magnolia.espacioh/" target="_blank"><img  src="magnolia.jpg"></a></li>
+                <li><a href="https://www.instagram.com/altos.puentes/" target="_blank"><img src="altos puentes4.jpg"></a></li>
+            </ul>
+        </div>
+     <!--mapa solo para poner un iframe--> 
+     <section>
+        <div class="mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6522.324933295091!2d-59.08175640032427!3d-35.177503008387085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd0735bc47f5e9%3A0x491e2c484eb4dbf1!2sLincoln%201378%2C%20Lobos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1649194074490!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+        
+    </div>
+    </footer>
+</body>
+</html>
